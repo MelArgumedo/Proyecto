@@ -30,18 +30,18 @@
         {
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             label1 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            txtNombreProducto = new TextBox();
+            txtCantidadUnidad = new TextBox();
             label2 = new Label();
-            textBox3 = new TextBox();
+            txtUnidadesEnStock = new TextBox();
             label3 = new Label();
-            textBox4 = new TextBox();
+            txtPrecioUnitario = new TextBox();
             label4 = new Label();
-            textBox5 = new TextBox();
+            ReordenarNivel = new TextBox();
             label5 = new Label();
-            textBox6 = new TextBox();
+            UnidadesEnOrden = new TextBox();
             label6 = new Label();
-            textBox7 = new TextBox();
+            txtDescontinuado = new TextBox();
             label7 = new Label();
             SuspendLayout();
             // 
@@ -54,19 +54,19 @@
             label1.TabIndex = 0;
             label1.Text = "Nombre del producto";
             // 
-            // textBox1
+            // txtNombreProducto
             // 
-            textBox1.Location = new Point(70, 55);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 1;
+            txtNombreProducto.Location = new Point(70, 55);
+            txtNombreProducto.Name = "txtNombreProducto";
+            txtNombreProducto.Size = new Size(100, 23);
+            txtNombreProducto.TabIndex = 1;
             // 
-            // textBox2
+            // txtCantidadUnidad
             // 
-            textBox2.Location = new Point(70, 126);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
-            textBox2.TabIndex = 3;
+            txtCantidadUnidad.Location = new Point(70, 126);
+            txtCantidadUnidad.Name = "txtCantidadUnidad";
+            txtCantidadUnidad.Size = new Size(100, 23);
+            txtCantidadUnidad.TabIndex = 3;
             // 
             // label2
             // 
@@ -77,12 +77,12 @@
             label2.TabIndex = 2;
             label2.Text = "Cantidad por unidad";
             // 
-            // textBox3
+            // txtUnidadesEnStock
             // 
-            textBox3.Location = new Point(70, 271);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(100, 23);
-            textBox3.TabIndex = 7;
+            txtUnidadesEnStock.Location = new Point(70, 271);
+            txtUnidadesEnStock.Name = "txtUnidadesEnStock";
+            txtUnidadesEnStock.Size = new Size(100, 23);
+            txtUnidadesEnStock.TabIndex = 7;
             // 
             // label3
             // 
@@ -93,12 +93,12 @@
             label3.TabIndex = 6;
             label3.Text = "Unidades en stock";
             // 
-            // textBox4
+            // txtPrecioUnitario
             // 
-            textBox4.Location = new Point(70, 200);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(100, 23);
-            textBox4.TabIndex = 5;
+            txtPrecioUnitario.Location = new Point(70, 200);
+            txtPrecioUnitario.Name = "txtPrecioUnitario";
+            txtPrecioUnitario.Size = new Size(100, 23);
+            txtPrecioUnitario.TabIndex = 5;
             // 
             // label4
             // 
@@ -109,12 +109,12 @@
             label4.TabIndex = 4;
             label4.Text = "Precio unitario";
             // 
-            // textBox5
+            // ReordenarNivel
             // 
-            textBox5.Location = new Point(252, 126);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(100, 23);
-            textBox5.TabIndex = 11;
+            ReordenarNivel.Location = new Point(252, 126);
+            ReordenarNivel.Name = "ReordenarNivel";
+            ReordenarNivel.Size = new Size(100, 23);
+            ReordenarNivel.TabIndex = 11;
             // 
             // label5
             // 
@@ -125,12 +125,12 @@
             label5.TabIndex = 10;
             label5.Text = "Reordenar nivel";
             // 
-            // textBox6
+            // UnidadesEnOrden
             // 
-            textBox6.Location = new Point(252, 55);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(100, 23);
-            textBox6.TabIndex = 9;
+            UnidadesEnOrden.Location = new Point(252, 55);
+            UnidadesEnOrden.Name = "UnidadesEnOrden";
+            UnidadesEnOrden.Size = new Size(100, 23);
+            UnidadesEnOrden.TabIndex = 9;
             // 
             // label6
             // 
@@ -141,12 +141,12 @@
             label6.TabIndex = 8;
             label6.Text = "Unidades en orden";
             // 
-            // textBox7
+            // txtDescontinuado
             // 
-            textBox7.Location = new Point(258, 214);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(100, 23);
-            textBox7.TabIndex = 13;
+            txtDescontinuado.Location = new Point(258, 214);
+            txtDescontinuado.Name = "txtDescontinuado";
+            txtDescontinuado.Size = new Size(100, 23);
+            txtDescontinuado.TabIndex = 13;
             // 
             // label7
             // 
@@ -162,19 +162,19 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(textBox7);
+            Controls.Add(txtDescontinuado);
             Controls.Add(label7);
-            Controls.Add(textBox5);
+            Controls.Add(ReordenarNivel);
             Controls.Add(label5);
-            Controls.Add(textBox6);
+            Controls.Add(UnidadesEnOrden);
             Controls.Add(label6);
-            Controls.Add(textBox3);
+            Controls.Add(txtUnidadesEnStock);
             Controls.Add(label3);
-            Controls.Add(textBox4);
+            Controls.Add(txtPrecioUnitario);
             Controls.Add(label4);
-            Controls.Add(textBox2);
+            Controls.Add(txtCantidadUnidad);
             Controls.Add(label2);
-            Controls.Add(textBox1);
+            Controls.Add(txtNombreProducto);
             Controls.Add(label1);
             Name = "Productos";
             Text = "Productos";
@@ -186,18 +186,18 @@
 
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private Label label1;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox txtNombreProducto;
+        private TextBox txtCantidadUnidad;
         private Label label2;
-        private TextBox textBox3;
+        private TextBox txtUnidadesEnStock;
         private Label label3;
-        private TextBox textBox4;
+        private TextBox txtPrecioUnitario;
         private Label label4;
-        private TextBox textBox5;
+        private TextBox ReordenarNivel;
         private Label label5;
-        private TextBox textBox6;
+        private TextBox UnidadesEnOrden;
         private Label label6;
-        private TextBox textBox7;
+        private TextBox txtDescontinuado;
         private Label label7;
     }
 }

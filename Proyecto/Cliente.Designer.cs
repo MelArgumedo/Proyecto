@@ -30,10 +30,10 @@
         {
             label1 = new Label();
             label2 = new Label();
-            textBox1 = new TextBox();
+            txtNombreCompañia = new TextBox();
             label3 = new Label();
             label4 = new Label();
-            textBox2 = new TextBox();
+            txtCodigoPostal = new TextBox();
             label5 = new Label();
             label6 = new Label();
             label7 = new Label();
@@ -41,9 +41,11 @@
             label8 = new Label();
             textBox4 = new TextBox();
             label9 = new Label();
-            textBox5 = new TextBox();
+            txtNombreContacto = new TextBox();
             label10 = new Label();
-            textBox6 = new TextBox();
+            txtDireccion = new TextBox();
+            txtCiudad = new TextBox();
+            textBox1 = new TextBox();
             SuspendLayout();
             // 
             // label1
@@ -63,12 +65,12 @@
             label2.Size = new Size(0, 15);
             label2.TabIndex = 1;
             // 
-            // textBox1
+            // txtNombreCompañia
             // 
-            textBox1.Location = new Point(30, 31);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(117, 23);
-            textBox1.TabIndex = 2;
+            txtNombreCompañia.Location = new Point(30, 31);
+            txtNombreCompañia.Name = "txtNombreCompañia";
+            txtNombreCompañia.Size = new Size(117, 23);
+            txtNombreCompañia.TabIndex = 2;
             // 
             // label3
             // 
@@ -88,12 +90,12 @@
             label4.TabIndex = 4;
             label4.Text = "Region";
             // 
-            // textBox2
+            // txtCodigoPostal
             // 
-            textBox2.Location = new Point(30, 203);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
-            textBox2.TabIndex = 5;
+            txtCodigoPostal.Location = new Point(30, 203);
+            txtCodigoPostal.Name = "txtCodigoPostal";
+            txtCodigoPostal.Size = new Size(100, 23);
+            txtCodigoPostal.TabIndex = 5;
             // 
             // label5
             // 
@@ -156,12 +158,12 @@
             label9.TabIndex = 12;
             label9.Text = "Nombre del contacto";
             // 
-            // textBox5
+            // txtNombreContacto
             // 
-            textBox5.Location = new Point(251, 31);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(100, 23);
-            textBox5.TabIndex = 13;
+            txtNombreContacto.Location = new Point(251, 31);
+            txtNombreContacto.Name = "txtNombreContacto";
+            txtNombreContacto.Size = new Size(100, 23);
+            txtNombreContacto.TabIndex = 13;
             // 
             // label10
             // 
@@ -172,21 +174,37 @@
             label10.TabIndex = 14;
             label10.Text = "Dirección";
             // 
-            // textBox6
+            // txtDireccion
             // 
-            textBox6.Location = new Point(251, 104);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(100, 23);
-            textBox6.TabIndex = 15;
+            txtDireccion.Location = new Point(251, 104);
+            txtDireccion.Name = "txtDireccion";
+            txtDireccion.Size = new Size(100, 23);
+            txtDireccion.TabIndex = 15;
+            // 
+            // txtCiudad
+            // 
+            txtCiudad.Location = new Point(30, 90);
+            txtCiudad.Name = "txtCiudad";
+            txtCiudad.Size = new Size(100, 23);
+            txtCiudad.TabIndex = 16;
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(30, 159);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(100, 23);
+            textBox1.TabIndex = 17;
             // 
             // Cliente
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(469, 450);
-            Controls.Add(textBox6);
+            ClientSize = new Size(384, 375);
+            Controls.Add(textBox1);
+            Controls.Add(txtCiudad);
+            Controls.Add(txtDireccion);
             Controls.Add(label10);
-            Controls.Add(textBox5);
+            Controls.Add(txtNombreContacto);
             Controls.Add(label9);
             Controls.Add(textBox4);
             Controls.Add(label8);
@@ -194,10 +212,10 @@
             Controls.Add(label7);
             Controls.Add(label6);
             Controls.Add(label5);
-            Controls.Add(textBox2);
+            Controls.Add(txtCodigoPostal);
             Controls.Add(label4);
             Controls.Add(label3);
-            Controls.Add(textBox1);
+            Controls.Add(txtNombreCompañia);
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "Cliente";
@@ -210,10 +228,10 @@
 
         private Label label1;
         private Label label2;
-        private TextBox textBox1;
+        private TextBox txtNombreCompañia;
         private Label label3;
         private Label label4;
-        private TextBox textBox2;
+        private TextBox txtCodigoPostal;
         private Label label5;
         private Label label6;
         private Label label7;
@@ -221,8 +239,10 @@
         private Label label8;
         private TextBox textBox4;
         private Label label9;
-        private TextBox textBox5;
+        private TextBox txtNombreContacto;
         private Label label10;
-        private TextBox textBox6;
+        private TextBox txtDireccion;
+        private TextBox txtCiudad;
+        private TextBox textBox1;
     }
 }
